@@ -15,7 +15,7 @@ router.get("/mushrooms", async (req, res, next) => {
 
     try {
         const [result] = await db.collection("mushrooms").aggregate([
-            { $sort: { name: 1 } },
+            // { $sort: { name: 1 } },
             {
                 $facet: {
                     metadata: [{ $count: 'totalCount' }],
@@ -71,7 +71,7 @@ router.get("/mushroom/search", async (req, res, next) => {
                     },
                 },
             },
-            { $sort: { name: 1 } },
+            // { $sort: { name: 1 } },
             {
                 $facet: {
                     metadata: [{ $count: 'totalCount' }],

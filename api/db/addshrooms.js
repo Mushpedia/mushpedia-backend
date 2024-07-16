@@ -1,7 +1,7 @@
 const { MongoClient, ServerApiVersion } = require("mongodb");
 const data = require("../../mushroom_data/mushrooms_data_X.json");
 
-const uri = "mongodb+srv://linussilfver:3yCzpAQyGDYF18Yd@mushrooms.zmdins0.mongodb.net/?retryWrites=true&w=majority&appName=Mushrooms"
+const uri = ""
 const client = new MongoClient(uri, {
     serverApi: {
         version: ServerApiVersion.v1,

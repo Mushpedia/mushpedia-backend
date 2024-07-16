@@ -26,8 +26,10 @@ git clone https://github.com/Mushpedia/mushpedia-backend.git
 ```
 
 3. Install dependencies:
+```sh
 npm install
-4. Set up environment variables:
+```
+5. Set up environment variables:
 ```env
 PORT=3000
 DB_URI=your_mongodb_uri

@@ -16,7 +16,7 @@ Welcome to the Mushpedia backend repository. This project is a Node.js + Express
 ### Prerequisites
 Make sure you have the following installed:
 
-* Node.js (version 14.x or higher)
+* Node.js (version 20.12.2 or higher)
 * MongoDB (local or cloud instance)
 
 #### Installation

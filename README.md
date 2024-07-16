@@ -1,31 +1,41 @@
-# Node.js Hello World
+# Mushpedia Backend
+Welcome to the Mushpedia backend repository. This project is a Node.js + Express.js server designed to handle the backend functionalities of the Mushpedia application.
 
-Simple Node.js + Vercel example that returns a "Hello World" response.
+### Features
+* RESTful API: Provides endpoints to manage and retrieve mushroom-related data.
+* Database Integration: Connects to a MongoDB database for data storage.
+* Error Handling: Robust error handling for reliable performance.
 
-## How to Use
+### Technologies Used
+* Node.js: JavaScript runtime environment.
+* Express.js: Web framework for Node.js.
+* MongoDB: NoSQL database for data storage.
+* dotenv: Environment variable management.
 
-You can choose from one of the following two methods to use this repository:
+## Getting Started
+### Prerequisites
+Make sure you have the following installed:
 
-### One-Click Deploy
+* Node.js (version 14.x or higher)
+* MongoDB (local or cloud instance)
 
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=vercel-examples):
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/vercel/examples/tree/main/solutions/node-hello-world&project-name=node-hello-world&repository-name=node-hello-world)
-
-### Clone and Deploy
-
-```bash
-git clone https://github.com/vercel/examples/tree/main/solutions/node-hello-world
+#### Installation
+1. Clone the repository:
+```sh
+git clone https://github.com/Mushpedia/mushpedia-backend.git
 ```
 
-Install the Vercel CLI:
-
-```bash
-npm i -g vercel
+3. Install dependencies:
+npm install
+4. Set up environment variables:
+```env
+PORT=3000
+DB_URI=your_mongodb_uri
+DEBUG=http,app:server,app:error-handler
 ```
 
-Then run the app at the root of the repository:
-
-```bash
-vercel dev
+####  Running the Server
+1. Start the server:
+```sh
+npm start
 ```
